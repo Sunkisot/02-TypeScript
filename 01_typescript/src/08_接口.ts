@@ -34,3 +34,20 @@ let poi: Point = {
   z: 100
 }
 // poi.x = 100 不可赋值
+
+
+interface Obj3 {
+  [k: string]: number
+}
+const obj1: Obj3 = {
+  '13': 1
+}
+
+// 函数类型接口
+interface fn3 {
+  <T>(val: T): T 
+}
+
+const fun: fn3 = (val) => val
+
+fun<string>('1')

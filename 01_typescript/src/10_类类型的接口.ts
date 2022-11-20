@@ -3,7 +3,7 @@
 interface PersonInterFace {
   name: string,
   age: number,
-  eat(): void
+  eat?(): void
 }
 
 class XiaoMing implements PersonInterFace {
