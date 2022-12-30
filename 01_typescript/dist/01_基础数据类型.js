@@ -1,6 +1,9 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.a = void 0;
 // number
 var a = 10;
+exports.a = a;
 var b = NaN;
 var c = Infinity;
 var d = 0xA12; // 十六进制数字
@@ -9,7 +12,7 @@ var f = 61; // 八进制数字
 // string
 var str = '123';
 var str1 = "232";
-var str2 = "\u8FD9\u662F\u4E00\u4E2A\u5B57\u7B26\u4E32" + a;
+var str2 = "\u8FD9\u662F\u4E00\u4E2A\u5B57\u7B26\u4E32".concat(a);
 // boolean
 var flag = true;
 // 数组
@@ -17,7 +20,7 @@ var flag = true;
 var arr = [1, 2];
 // 数据类型[]
 var arr1 = [1, 2];
-// 元组（Tuple）
+// 元组（Tuple）通常用于解构
 var arr2 = [1, "2"];
 arr2[0] = 123;
 arr2[1] = 's';

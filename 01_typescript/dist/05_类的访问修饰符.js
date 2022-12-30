@@ -3,7 +3,9 @@
 // 指的就是可以在类的成员前通过关键字来设置但前成员的访问权限
 // public：公开的，默认  所有人都可以进行访问
 // private：私有的，  只能在当前类中进行访问
-// protected：受保护的， 只能在当前类或者子类中进行访问
+// protected：受保护的， 只能在当前类或者子类中进行访问（也可以标记构造函数）
+// readonly： 只读的，
+// 对于有private和protected成员的类时， 只有其子类才可以对其进行赋值，(类型相同的其他类不可以赋值 因为类型不同)
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||

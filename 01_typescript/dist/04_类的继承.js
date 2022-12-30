@@ -31,6 +31,7 @@ var Dog = /** @class */ (function (_super) {
         return _this;
     }
     Dog.prototype.eat = function () {
+        console.log(_super.prototype.eat.call(this));
         // 会覆盖父类中的方法
         console.log('狗中的eat');
     };

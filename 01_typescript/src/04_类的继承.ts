@@ -15,6 +15,7 @@ class Dog extends Animal {
     this.type = type
   }
   eat() {
+    console.log(super.eat())
     // 会覆盖父类中的方法
     console.log('狗中的eat')
   }

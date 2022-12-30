@@ -10,3 +10,5 @@ var Person = /** @class */ (function () {
     };
     return Person;
 }());
+// class 声明一个值的同时也声明了一个类型
+var person;

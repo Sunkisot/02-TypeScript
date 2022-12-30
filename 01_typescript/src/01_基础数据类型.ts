@@ -20,7 +20,7 @@ let arr: Array<number> = [1, 2]
 // 数据类型[]
 let arr1: number[] = [1, 2]
 
-// 元组（Tuple）
+// 元组（Tuple）通常用于解构
 let arr2: [number, string] = [1, "2"]
 arr2[0] = 123
 arr2[1] = 's'
@@ -48,3 +48,5 @@ function test(): never {
 
   }
 }
+
+export {a}
